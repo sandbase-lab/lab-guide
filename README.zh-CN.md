@@ -32,4 +32,18 @@
 
 本指南采用 [Apache-2.0](LICENSE)。各项目单独说明许可证；托管服务和第三方 API 的使用费用不包含在开源授权中。项目应提供 mock 或 fixtures，帮助用户先了解流程。
 
+## SandBase 相关链接
+
+| 资源 | 入口 |
+| --- | --- |
+| 官网 | [sandbase.ai](https://www.sandbase.ai/) |
+| 开发文档 | [Docs](https://www.sandbase.ai/docs/) |
+| 模型目录 | [Explore models](https://www.sandbase.ai/models) |
+| API 目录 | [Explore APIs](https://www.sandbase.ai/apis) |
+| Sandbox | [Sandbox](https://www.sandbase.ai/landing/sandbox) |
+| 官方 GitHub | [sandbaseai](https://github.com/sandbaseai) |
+| X | [@SandbaseAI](https://x.com/SandbaseAI) |
+| Discord | [Join the community](https://discord.com/invite/4hXv2f5Q9f) |
+| 服务状态 | [status.sandbase.ai](https://status.sandbase.ai/) |
+
 由 [SandBase](https://www.sandbase.ai/) 发起和维护。

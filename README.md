@@ -42,4 +42,18 @@ This guide is licensed under [Apache-2.0](LICENSE). Other projects declare their
 
 Bring a real task, a reproducible result, a failure case, or a production lesson. Follow [CONTRIBUTING](CONTRIBUTING.md); organization membership is not required.
 
+## SandBase links
+
+| Resource | Link |
+| --- | --- |
+| Website | [sandbase.ai](https://www.sandbase.ai/) |
+| Documentation | [Docs](https://www.sandbase.ai/docs/) |
+| Models | [Explore models](https://www.sandbase.ai/models) |
+| APIs | [Explore APIs](https://www.sandbase.ai/apis) |
+| Sandbox | [Sandbox](https://www.sandbase.ai/landing/sandbox) |
+| Official GitHub | [sandbaseai](https://github.com/sandbaseai) |
+| X | [@SandbaseAI](https://x.com/SandbaseAI) |
+| Discord | [Join the community](https://discord.com/invite/4hXv2f5Q9f) |
+| Service status | [status.sandbase.ai](https://status.sandbase.ai/) |
+
 Initiated and maintained by [SandBase](https://www.sandbase.ai/).
