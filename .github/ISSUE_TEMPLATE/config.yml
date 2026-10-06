@@ -1,5 +1,5 @@
 blank_issues_enabled: true
 contact_links:
-  - name: Lab Guide / 项目指南
+  - name: Lab Guide
     url: https://github.com/sandbase-lab/lab-guide
     about: Start here for project standards and production guidance.

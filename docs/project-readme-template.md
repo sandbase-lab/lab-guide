@@ -1,41 +1,41 @@
 # <Project Name>
 
-> <一句话说明任务与交付结果>
+> <Describe the task and delivered artifact in one sentence.>
 
-Stage: Experimental | Preview | Production-ready（发布时选择一个）
+Stage: Experimental | Preview | Production-ready (choose one before publishing)
 
-## 效果展示
+## Results
 
-实际截图、示例输出或录屏，并注明输入、模型和运行条件。
+Actual screenshots, sample output, or recordings with input, model, and execution conditions.
 
-## 快速启动
+## Quick start
 
-前置依赖、安装命令、环境变量配置、运行命令和预期结果。
+Prerequisites, installation, environment variables, run commands, and expected results.
 
-## 无付费调用体验
+## Explore without paid calls
 
-mock 或 fixtures 的使用方法，以及与真实执行的差异。
+How to use fixtures or mock mode and how it differs from real execution.
 
-## 工作流
+## Workflow
 
-输入 → 模型与工具调用 → Sandbox 执行 → 结果。说明关键设计和替换组件的方法。
+Input → model and tool calls → sandbox execution → result. Explain key choices and how to replace components.
 
-## 服务与成本
+## Services and costs
 
-需要的账号、权限、计费单位；实测成本、耗时、日期及测量条件。禁止保证固定成本。
+Required accounts, permissions, and billing units. State measured costs and latency with dates and conditions; do not guarantee fixed costs.
 
-## 评估
+## Evaluation
 
-评估数据、执行命令、验收标准、已知失败案例。
+Evaluation data, commands, acceptance criteria, and known failures.
 
-## 部署与运行
+## Deployment and operations
 
-目标环境、启动配置、预算与并发限制、监控、恢复和回滚。
+Target environment, configuration, budgets, concurrency, monitoring, recovery, and rollback.
 
-## 限制与路线图
+## Limitations and roadmap
 
-当前能力边界、尚未验证的生产条件和下一步。
+Current boundaries, unverified production conditions, and next steps.
 
-## 贡献与许可证
+## Contributions and license
 
-维护者、贡献步骤、项目许可证及第三方资产说明。
+Maintainer, contribution steps, project license, and third-party asset notices.

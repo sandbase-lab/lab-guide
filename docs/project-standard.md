@@ -1,41 +1,41 @@
-# Lab 项目标准
+# Lab project standard
 
-## 仓库边界
+## Repository boundaries
 
-一个独立 Agent 应用一个仓库。代码、依赖、评估、版本和部署由该仓库维护。只有至少两个项目确实复用同一能力时，才考虑提取共享包。
+Each independent agent application has its own repository, dependencies, evaluations, releases, and deployment guidance. Extract a shared package only when multiple projects actually need it.
 
-## 实验阶段的最低要求
+## Experimental
 
-- 用一句话说明真实任务，并展示实际生成的结果。
-- 提供可运行代码、固定依赖和环境变量示例；不得提交密钥。
-- 给出从干净环境运行的步骤、示例输入与预期输出。
-- 说明所需模型、API、Sandbox、计费方式和已知限制。
-- 为首次探索提供 mock 或 fixtures；区分模拟结果与真实运行结果。
-- 提供许可证。默认建议代码采用 Apache-2.0，数据和第三方资产单独核对授权。
+- Explain the real task and show an actual result.
+- Provide runnable code, pinned dependencies, and example environment variables without secrets.
+- Document clean-environment setup, example inputs, and expected outputs.
+- State model, API, and sandbox dependencies, billing requirements, and limitations.
+- Provide fixtures or mock mode and distinguish simulated from real results.
+- Include a license. Apache-2.0 is suggested for code; review data and third-party asset licenses separately.
 
-## Preview 阶段
+## Preview
 
-在实验要求上增加：
+Meet Experimental requirements and add:
 
-- 多组评估输入、判定标准和失败案例。
-- 部署步骤，以及超时、重试、错误反馈和预算限制。
-- 成功率、耗时与成本的测量条件、日期和样本量。
-- 适用时记录异步状态、任务取消、幂等行为和结果保存方式。
+- Multiple evaluation inputs, acceptance criteria, and failure cases.
+- Deployment instructions, timeouts, retries, error feedback, and budget controls.
+- Measurement conditions, dates, and sample sizes for success rate, latency, and cost.
+- As applicable, async status, cancellation, idempotency, and result persistence.
 
-## Production-ready 阶段
+## Production-ready
 
-在 Preview 要求上增加：
+Meet Preview requirements and add:
 
-- 明确支持的工作负载、并发、数据规模和服务依赖。
-- 提供目标环境中的评估与负载证据，以及已知故障边界。
-- 覆盖权限、密钥管理、日志脱敏和数据保留策略。
-- 提供运行监控、故障恢复、回滚与维护责任说明。
-- 对发送、发布、购买等外部副作用设计明确授权与防重复执行措施。
+- Supported workloads, concurrency, data scale, and service dependencies.
+- Evaluation and load evidence in the target environment, including known failure boundaries.
+- Permissions, secret management, log redaction, and data retention policies.
+- Monitoring, recovery, rollback, and maintenance responsibilities.
+- Explicit authorization and duplicate-execution controls for external actions such as sending, publishing, or purchasing.
 
-阶段是对已有证据的描述。不得仅凭一次成功演示标记为生产就绪。
+Stages describe available evidence. A single successful demo does not establish production readiness.
 
-## 项目导航字段
+## Directory fields
 
-名称、任务、仓库、效果预览、成熟度、运行方式、服务依赖、成本说明、维护者、最后验证日期。
+Name, task, repository, preview, stage, setup instructions, service dependencies, cost evidence, maintainer, and last validation date.
 
-未实现的项目只进入候选列表，不提供虚假的 Demo 或部署链接。
+Unimplemented projects belong in the candidate list and must not claim working demos or deployments.

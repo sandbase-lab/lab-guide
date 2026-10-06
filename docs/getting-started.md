@@ -1,25 +1,25 @@
-# 入门指南 / Getting started
+# Getting started
 
-## 体验现有项目
+## Explore a project
 
-1. 从项目目录选择符合任务的独立仓库。
-2. 查看成熟度、实际结果、服务依赖和成本说明。
-3. 先运行 fixtures 或 mock，再配置自己的服务凭据运行真实示例。
-4. 使用评估样例验证效果，替换自己的数据和工具。
-5. 部署前检查生产化要求和运行边界。
+1. Choose an independent repository from the directory.
+2. Review its stage, results, service dependencies, and costs.
+3. Try fixtures or mock mode, then configure your own credentials for real runs.
+4. Evaluate the workflow and connect your data and tools.
+5. Review production requirements and operating boundaries before deployment.
 
-当前组织尚未发布可运行项目；目录中的候选方向不代表已实现。
+No runnable agent project has been published yet. Candidate directions are not implemented applications.
 
-## 创建新 Lab
+## Create a lab
 
-1. 选一个能产出可见结果的真实任务，定义示例输入和成功标准。
-2. 验证最小工作流，记录模型、API、Sandbox 及关键配置。
-3. 建立独立仓库，提供 README、许可证、环境示例、固定依赖和运行步骤。
-4. 提供无付费调用的 fixtures 或 mock，说明它与真实调用的区别。
-5. 用干净环境验证复现，记录耗时、费用、样本量和失败情况。
-6. 按项目标准标记成熟度，然后提议加入目录。
+1. Choose a real task with a visible result; define inputs and success criteria.
+2. Validate the smallest workflow and record models, APIs, sandbox, and configuration.
+3. Create an independent repository with a README, license, environment example, pinned dependencies, and run instructions.
+4. Add fixtures or mock mode that avoids paid calls; explain its differences.
+5. Reproduce in a clean environment and record latency, cost, sample size, and failures.
+6. Declare a stage using the project standard, then propose a directory entry.
 
-## Suggested project layout
+## Suggested layout
 
 ```text
 project/
@@ -34,8 +34,8 @@ project/
     └── deployment.md
 ```
 
-这是建议布局，不要求统一技术栈。配置文件名、运行命令和部署方法由每个项目实际实现决定。
+This layout is a suggestion; no common technology stack is required. Configuration, commands, and deployment methods must reflect each project's implementation.
 
 ## Reproduction record
 
-记录代码版本、运行日期、依赖版本、模型标识、输入、输出及评估结果。对于会变化的外部数据，保留合法可共享的样本或说明获取步骤。
+Record code version, run date, dependency versions, model identifiers, inputs, outputs, and evaluation results. For changing external data, provide legally shareable samples or retrieval instructions.

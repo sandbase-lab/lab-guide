@@ -2,7 +2,7 @@
 
 **Open-source agent experiments, from prototype to production.**
 
-[中文](README.zh-CN.md) · [Project standard](docs/project-standard.md) · [Contribute](CONTRIBUTING.md)
+[Project standard](docs/project-standard.md) · [Contribute](CONTRIBUTING.md)
 
 SandBase Lab connects models, real-world APIs, and sandboxes in independent open-source agent projects. Start from a visible result, reproduce the workflow, adapt it, and validate it for production.
 

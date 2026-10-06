@@ -1,17 +1,17 @@
 ---
-name: Bug report / 问题报告
+name: Bug report
 about: Report a reproducible failure without exposing secrets.
 title: "[Bug] "
 ---
 
-## Expected and actual behavior / 预期与实际表现
+## Expected and actual behavior
 
-## Steps to reproduce / 复现步骤
+## Steps to reproduce
 
-## Environment / 运行环境
+## Environment
 Project version or commit, OS, runtime, and dependency versions.
 
-## Relevant logs / 相关日志
+## Relevant logs
 Remove API keys, tokens, and private data before posting.
 
-## Impact / 影响
+## Impact
