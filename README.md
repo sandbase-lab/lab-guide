@@ -1,29 +1,45 @@
 # SandBase Lab Guide
 
-**Agent 从实验到生产的开源项目集合。**
+**Open-source agent experiments, from prototype to production.**
 
-SandBase Lab 持续把模型、真实世界 API 和 Sandbox 组合成可运行、可复现的 Agent 项目，帮助开发者从效果验证走向业务应用。
+[中文](README.zh-CN.md) · [Project standard](docs/project-standard.md) · [Contribute](CONTRIBUTING.md)
 
-## 项目目录
+SandBase Lab connects models, real-world APIs, and sandboxes in independent open-source agent projects. Start from a visible result, reproduce the workflow, adapt it, and validate it for production.
 
-目前处于启动阶段，尚未发布可运行项目。每个 Agent 项目将拥有独立仓库；本仓库负责导航、项目标准和演进指南。
+## Choose your path
 
-| 计划方向 | 交付结果 | 状态 |
+| Your goal | Start here |
+| --- | --- |
+| Understand the collection | [Getting started](docs/getting-started.md) |
+| Find an agent project | [Project directory](#project-directory) |
+| Propose a new experiment | [Open a lab proposal](https://github.com/sandbase-lab/lab-guide/issues/new?template=lab-proposal.md) |
+| Publish a reproducible project | [Project standard](docs/project-standard.md) and [README template](docs/project-readme-template.md) |
+| Prepare a prototype for production | [Production checklist](docs/production-checklist.md) |
+
+## Project directory
+
+The collection is launching. No runnable agent project has been published yet. Each validated application will have an independent repository with setup, example inputs, evaluations, cost notes, and deployment guidance.
+
+| Candidate direction | Expected artifact | Status |
 | --- | --- | --- |
-| Research Agent | 带来源的研究报告 | 候选，未实现 |
-| Content Agent | 文案与图片内容包 | 候选，未实现 |
-| Data Analysis Agent | 分析报告与图表 | 候选，未实现 |
+| Research Agent | A research report with sources | Proposed; not implemented |
+| Content Agent | A package of copy and images | Proposed; not implemented |
+| Data Analysis Agent | Charts and an analysis report | Proposed; not implemented |
 
-## 从实验到生产
+Published entries will include repository, maturity stage, preview, setup instructions, service dependencies, cost evidence, maintainer, and last validation date.
 
-实验验证 → 可运行原型 → 效果评估 → 生产部署。
+## How a lab evolves
 
-优先做出可见、可重复的真实效果。通过验证的实验再补齐体验入口、开源代码、评估和部署材料。
+Experiment → reproducible prototype → evaluation → deployment and operations.
 
-## 参与项目
+Projects declare **Experimental**, **Preview**, or **Production-ready** based on documented evidence. See the [stage requirements](docs/project-standard.md). Independent repositories own their dependencies, releases, and maintenance.
 
-- 阅读 [项目标准](docs/project-standard.md)。
-- 使用 [README 模板](docs/project-readme-template.md) 建立独立项目。
-- 遵循 [贡献指南](CONTRIBUTING.md)。
+## Open source and service costs
 
-开源代码不等于免费 API 使用；每个项目必须明确许可证、服务依赖和运行成本。
+This guide is licensed under [Apache-2.0](LICENSE). Other projects declare their own licenses. SandBase and third-party service access and usage charges are separate from the code license; fixtures or mock mode should allow initial exploration without paid calls.
+
+## Contribute
+
+Bring a real task, a reproducible result, a failure case, or a production lesson. Follow [CONTRIBUTING](CONTRIBUTING.md); organization membership is not required.
+
+Initiated and maintained by [SandBase](https://www.sandbase.ai/).
