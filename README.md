@@ -28,6 +28,14 @@ The collection is launching. No runnable agent project has been published yet. E
 
 Published entries will include repository, maturity stage, preview, setup instructions, service dependencies, cost evidence, maintainer, and last validation date.
 
+## Collections
+
+Curated lists built from SandBase Lab data. They are reference material, not runnable agent projects, so they carry no maturity stage.
+
+| Collection | What it is |
+| --- | --- |
+| [Awesome Gemini 4 Argon](https://github.com/sandbase-lab/awesome-gemini4-argon) | Videos made with Google Gemini 4 Argon (Three.js, WebGL, SVG, games), with creator prompts, a prompt guide, a tutorial and a model comparison. Synced daily from [SandBase Lab](https://www.sandbase.ai/lab/ai-videos/gemini-4-argon). |
+
 ## How a lab evolves
 
 Experiment → reproducible prototype → evaluation → deployment and operations.
